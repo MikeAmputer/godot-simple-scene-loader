@@ -18,3 +18,8 @@ The `load_scene` function includes two parameters:
 
 ## Customization
 This asset is made for quick integration, eliminating the need for detailed documentation. Simply explore the code to grasp its features and adapt it to your project.
+
+## Included Scene Preview
+<div style="display: flex; align-items: center;">
+    <img src="_img/mssl.png" alt="Preview" height="300">
+</div>
