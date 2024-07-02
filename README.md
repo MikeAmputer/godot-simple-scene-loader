@@ -3,8 +3,15 @@
 A basic straightforward scene loader with a loading screen for quick setup. Very simple and non-extensible. Ideal for rapid development and early project stages.
 
 ## Contains
-- loading script
+- loading script with single public method
 - loading scene with animation player and progress bar
+
+## Contains Not
+- plugin files and configs
+- example files
+- excessive scripts and files
+- any project settings references
+- absolute paths to unexisting files
 
 ## Installation
 1. Obtain the asset from the Godot Asset Library or [download](https://github.com/MikeAmputer/godot-simple-scene-loader/archive/refs/heads/master.zip) from github
