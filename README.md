@@ -1,6 +1,6 @@
 # Most Simple Scene Loader
 
-A basic straightforward scene loader with a loading screen for quick setup. Very simple and non-extensible. Ideal for rapid development and early project stages.
+A basic straightforward scene loader with a loading screen for quick setup. Very simple and non-extensible. Ideal for rapid development and early project stages. Just a few files to begin with.
 
 ## Contains
 - loading script with single public method
