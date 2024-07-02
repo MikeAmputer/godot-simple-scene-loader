@@ -8,9 +8,7 @@ A basic straightforward scene loader with a loading screen for quick setup. Very
 
 ## Installation
 1. Obtain the asset from the Godot Asset Library or [download](https://github.com/MikeAmputer/godot-simple-scene-loader/archive/refs/heads/master.zip) from github
-2. Open the `loading.tscn` scene and press the Fix Dependencies button
-3. Set included `loading.gd` script and `logo.png` image as new dependencies
-4. Add the `loading.tscn` scene as a singleton in the autoload settings (for more details, refer to the [Godot documentation on singletons](https://docs.godotengine.org/en/stable/tutorials/scripting/singletons_autoload.html))
+2. Add the `loading.tscn` scene as a singleton in the autoload settings (for more details, refer to the [Godot documentation on singletons](https://docs.godotengine.org/en/stable/tutorials/scripting/singletons_autoload.html))
 
 ## Usage
 Use the singleton function `Loading.load_scene`, assuming `Loading` is the name you assigned to your singleton.
