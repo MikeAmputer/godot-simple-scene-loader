@@ -10,6 +10,11 @@ var _scene_path: String
 
 @onready var _animator: AnimationPlayer = %animator
 @onready var _progress_bar: ProgressBar = %progress_bar
+@onready var _background: ColorRect = %background
+
+func _ready():
+	_background.visible = false
+	_background.modulate = Color(1, 1, 1, 0)
 
 func load_scene(path: String, use_transition_scene: bool = false) -> void:
 	if not _is_loading:
