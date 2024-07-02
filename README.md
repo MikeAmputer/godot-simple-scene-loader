@@ -10,8 +10,9 @@ A basic straightforward scene loader with a loading screen for quick setup. Very
 - plugin files and configs
 - example files
 - excessive scripts and files
-- any project settings references
+- project settings references
 - absolute paths to non-existent files
+- hidden functionality and implicit behaviour
 
 ## Installation
 1. Obtain the asset from the Godot Asset Library or [download](https://github.com/MikeAmputer/godot-simple-scene-loader/archive/refs/heads/master.zip) from github
