@@ -1,4 +1,4 @@
-[gd_scene load_steps=6 format=3 uid="uid://ckypo4jsjuepe"]
+[gd_scene load_steps=5 format=3 uid="uid://ckypo4jsjuepe"]
 
 [ext_resource type="Script" path="res://Assets/Loading/loading.gd" id="1"]
 [ext_resource type="Texture2D" uid="uid://cs551cnrh6mag" path="res://Assets/Loading/logo.png" id="2_7j08w"]
@@ -110,7 +110,6 @@ alignment = 1
 custom_minimum_size = Vector2(300, 300)
 layout_mode = 2
 size_flags_horizontal = 4
-texture = ExtResource("2_7j08w")
 expand_mode = 3
 stretch_mode = 4
 
@@ -119,7 +118,6 @@ custom_minimum_size = Vector2(0, 50)
 layout_mode = 2
 
 [node name="message" type="Label" parent="background/container"]
-visible = false
 layout_mode = 2
 theme_override_font_sizes/font_size = 35
 text = "Loading..."

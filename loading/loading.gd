@@ -11,10 +11,10 @@ var _scene_path: String
 @onready var _animator: AnimationPlayer = %animator
 @onready var _progress_bar: ProgressBar = %progress_bar
 
-func load_scene(path: String, enable_transition_scene: bool = false) -> void:
+func load_scene(path: String, use_transition_scene: bool = false) -> void:
 	if not _is_loading:
 		_is_loading = true
-		_should_play_animation = enable_transition_scene
+		_should_play_animation = use_transition_scene
 		call_deferred("_deferred_load_scene", path)
 	else:
 		printerr("Scene loading was called while another scene is already loading")
