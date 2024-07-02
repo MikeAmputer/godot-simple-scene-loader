@@ -1,7 +1,7 @@
 [gd_scene load_steps=6 format=3 uid="uid://ckypo4jsjuepe"]
 
-[ext_resource type="Script" path="res://Assets/Loading/loading.gd" id="1"]
-[ext_resource type="Texture2D" uid="uid://cs551cnrh6mag" path="res://Assets/Loading/logo.png" id="2_7j08w"]
+[ext_resource type="Script" path="loading.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://cs551cnrh6mag" path="logo.png" id="2_7j08w"]
 
 [sub_resource type="Animation" id="7"]
 resource_name = "Postload"
