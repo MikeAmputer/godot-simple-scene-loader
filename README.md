@@ -7,6 +7,7 @@ A basic straightforward scene loader with a loading screen for quick setup. Very
 - loading scene with animation player and progress bar
 
 ## Contains Not
+- documentation and code comments
 - plugin files and configs
 - example files
 - excessive scripts and files
@@ -15,7 +16,7 @@ A basic straightforward scene loader with a loading screen for quick setup. Very
 - hidden functionality and implicit behaviour
 
 ## Installation
-1. Obtain the asset from the Godot Asset Library or [download](https://github.com/MikeAmputer/godot-simple-scene-loader/archive/refs/heads/master.zip) from github
+1. Obtain the [asset](https://godotengine.org/asset-library/asset/3128) from the Godot Asset Library or [download](https://github.com/MikeAmputer/godot-simple-scene-loader/archive/refs/heads/master.zip) from github
 2. Add the `loading.tscn` scene as a singleton in the autoload settings (for more details, refer to the [Godot documentation on singletons](https://docs.godotengine.org/en/stable/tutorials/scripting/singletons_autoload.html))
 
 ## Usage
