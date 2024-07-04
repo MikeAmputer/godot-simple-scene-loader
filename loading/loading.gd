@@ -16,13 +16,16 @@ func _ready():
 	_background.visible = false
 	_background.modulate = Color(1, 1, 1, 0)
 
-func load_scene(path: String, use_transition_scene: bool = false) -> void:
-	if not _is_loading:
-		_is_loading = true
-		_should_play_animation = use_transition_scene
-		call_deferred("_deferred_load_scene", path)
-	else:
-		printerr("Scene loading was called while another scene is already loading")
+func load_scene(path: String, use_transition_scene: bool = false) -> bool:
+	if _is_loading:
+		printerr("Scene loading is already in process")
+		return false
+
+	_is_loading = true
+	_should_play_animation = use_transition_scene
+	call_deferred("_deferred_load_scene", path)
+
+	return true
 
 func _process(_delta: float) -> void:
 	if _is_loading:
@@ -51,7 +54,6 @@ func _set_new_scene() -> void:
 		ResourceLoader.load_threaded_get(_scene_path))
 
 	_play_animation(_postload_animation_name)
-
 	_is_loading = false
 	_progress_completion[0] = 0.0
 
