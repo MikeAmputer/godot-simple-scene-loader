@@ -47,16 +47,16 @@ func _process(_delta: float) -> void:
 func _deferred_load_scene(path: String) -> void:
 	_scene_path = path
 	ResourceLoader.load_threaded_request(_scene_path)
-	_play_animation(_preload_animation_name)
+	_try_play_animation(_preload_animation_name)
 
 func _set_new_scene() -> void:
 	get_tree().change_scene_to_packed(
 		ResourceLoader.load_threaded_get(_scene_path))
 
-	_play_animation(_postload_animation_name)
+	_try_play_animation(_postload_animation_name)
 	_is_loading = false
 	_progress_completion[0] = 0.0
 
-func _play_animation(animation_name: String) -> void:
+func _try_play_animation(animation_name: String) -> void:
 	if _should_play_animation:
 		_animator.play(animation_name)
