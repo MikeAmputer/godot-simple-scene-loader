@@ -10,9 +10,8 @@ A basic straightforward scene loader with a loading screen for quick setup. Very
 - documentation and code comments
 - plugin files and configs
 - example files
-- excessive scripts and files
 - project settings references
-- absolute paths to non-existent files
+- absolute paths to non-existent resources
 - hidden functionality and implicit behaviour
 
 ## Installation
