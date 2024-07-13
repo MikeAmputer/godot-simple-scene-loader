@@ -25,7 +25,8 @@ The function includes two parameters:
 - `use_transition_scene: bool`: Determines if a loading screen should be used during the transition. This is optional and defaults to `false`
 
 ## Customization
-This asset is made for quick integration, eliminating the need for detailed documentation. Simply explore the code to grasp its features and adapt it to your project.
+Though this asset is designed for quick integration without detailed documentation and expects users to extend it on their own, I will share some customization examples I have personally created:
+- [On scene loaded](/customizations/on_scene_loaded_call.gd) - pass a `Callable` to execute when scene is loaded. Useful if you need to pass some parameters to the scene.
 
 ## Included Scene Preview
 <div style="display: flex; align-items: center;">
