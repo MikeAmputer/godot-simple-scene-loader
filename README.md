@@ -19,7 +19,7 @@ A basic straightforward scene loader with a loading screen for quick setup. Very
 2. Add the `loading.tscn` scene as a singleton in the autoload settings (for more details, refer to the [Godot documentation on singletons](https://docs.godotengine.org/en/stable/tutorials/scripting/singletons_autoload.html))
 
 ## Usage
-Use the singleton function `Loading.load_scene`, assuming `Loading` is the name you assigned to your singleton.
+Use the function `Loading.load_scene`, assuming `Loading` is the name you assigned to your singleton.
 The function includes two parameters:
 - `path: String`: The path to the scene that you want to load, e.g., `"res://Scenes/main_menu.tscn"`
 - `use_transition_scene: bool`: Determines if a loading screen should be used during the transition. This is optional and defaults to `false`
