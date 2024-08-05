@@ -2,6 +2,8 @@
 
 A basic straightforward scene loader with a loading screen for quick setup. Very simple and featureless. Ideal for rapid development and early project stages. Just a few files to begin with.
 
+This code is released under the CC0 license, allowing you to use it freely without any restrictions or attribution requirements.
+
 ## Contains
 - loading script with single public method
 - loading scene with animation player and progress bar
